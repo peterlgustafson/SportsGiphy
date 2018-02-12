@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.sport-btn {
+    background-color: darkblue;
+    color: white;
+    font-size: 24px;
+    margin: 3px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 24px;
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    font-weight: bolder;
+}
+
+p {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
