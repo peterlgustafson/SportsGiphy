@@ -28,3 +28,14 @@ p {
     font-size: 18px;
     font-weight: bold;
 }
+
+.sportdiv {
+    max-height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+}
