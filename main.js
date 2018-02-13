@@ -16,7 +16,7 @@ $(document).ready(function () {
     function displaySportInfo() {
 
         var topic = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=9HeQ9HW3dHXdNkyJQDA69pPw4TvgtlG0&q=" + getTopic(topic) + "&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=9HeQ9HW3dHXdNkyJQDA69pPw4TvgtlG0&q=" + getTopic(topic) + "&limit=10";
 
         $.ajax({
             url: queryURL,
